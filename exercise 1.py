@@ -1,0 +1,5 @@
+Sentence = input("Enter your sentence: ")
+print("The sentence is: \n " + Sentence )
+to_replace = input("Enter a word you want to replacec: ")
+sub_word = input("Enter the new word to replace: ")
+print (Sentence.replace(to_replace.lower(), sub_word))
